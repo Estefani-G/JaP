@@ -1,0 +1,86 @@
+
+:root {
+  --colorDeLetrasOscuras: rgb(48, 48, 48);
+  --colorDeLetrasClaras: rgb(255, 255, 255);
+  --colorDeFondo: rgb(52, 52, 52);/*CAMBIAR ESTO*/
+  --colorDeFondosSecciones: rgb(33, 33, 33);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: white;
+    color: var(--colorDeLetrasOscuras);
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+}
+
+header {
+    background: var(--colorDeFondo);
+    color: var(--colorDeLetrasClaras);
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 0 15px;
+}
+
+a{
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+section {
+    margin: 2%;
+    padding: 5%;
+    background-color: var(--colorDeFondosSecciones);
+}
+
+
+.project {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.colorNombre{
+    color: rgb(153, 0, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
